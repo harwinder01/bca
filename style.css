@@ -1,0 +1,374 @@
+section {
+    padding: 55px 0;
+}
+body{
+    background: #f9fdfe;
+}
+@font-face {
+  font-family: Aileron-Bold;
+  src: url(fonts/aileron-cufonfonts/Aileron-Bold.woff);
+   font-weight: bold;
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('fonts/Aileron-Heavy.woff2') format('woff2'),
+        url('fonts/Aileron-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h2, h3{
+    font-family: Aileron-Bold;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('fonts/Aileron-Black.woff2') format('woff2'),
+        url('fonts/Aileron-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+nav.navbar.indigo {
+    align-items: center;
+}
+nav.navbar.indigo ul.navbar-nav.mr-auto {align-items: center;}
+
+nav.navbar.indigo a.navbar-brand {
+    margin-right: 75px;
+}
+nav.navbar.indigo .navbar-collapse ul.navbar-nav.mr-auto li a {
+    font-weight: 600;
+    color: #343a40;
+    margin: 1px 15px;
+}
+nav.navbar.indigo ul.navbar-nav.mr-auto a.nav-link {
+    font-weight: 600;
+    color: #343a40;
+}
+nav.navbar.indigo .navbar-collapse ul.navbar-nav.mr-auto li:hover a, section#section_3 .business_funding a, section#section_7 .business_steps .col-md-3 a {
+    color: #bb913a;
+}
+nav.navbar.indigo ul.navbar-nav.mr-auto button.btn.btn-dark {
+    background: #bb913a;
+    border: unset;
+    padding: 7px 15px;
+}
+section#section_2 {
+    padding: 0px;
+    margin-top: 40px;
+}
+nav.navbar.indigo ul.navbar-nav.mr-auto button.btn.btn-dark:hover, section#section_1 .newsletter form.form-inline button.btn.btn-primary.mb-2:hover {
+    background: #153971;
+}
+h2.font-weight-bold {
+    font-family: 'Aileron';
+    font-size: 40px;
+    color: #0a2141;
+}
+section#section_1 .newsletter {
+    margin-top: 25px;
+}
+section#section_1 .newsletter form.form-inline {
+    width: 100%;
+}
+
+section#section_1 .newsletter form.form-inline input#tel {
+    padding: 11px 15px;
+    height: auto !important;
+    width: 60%;
+}
+
+section#section_1 .newsletter form.form-inline button.btn.btn-primary.mb-2 {
+    font-size: 14px;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #bb913a;
+    border: unset;
+}
+section#section_1 .newsletter form.form-inline small a {
+    color: #bb913a;
+}
+section#section_2 .jumbotron {
+    background: #eeeeee;
+    border-radius: 50px 50px 0px 0px;
+}
+section#section_2 .jumbotron .row .col-md-4 {
+    text-align: center;
+	margin: 0px;
+    padding: 90px 0px;
+}
+
+section#section_2 .jumbotron .row .col-md-4 h4 {
+    font-weight: 700;
+    color: #0a2141;
+    margin-top: 30px;
+}
+
+section#section_3 h2.font-weight-bold, section#section_8 h2.font-weight-bold{
+    text-align: center;
+    width: 850px;
+    margin: 0px auto 50px;
+}
+section#section_8 {
+    padding-top: 30px;
+}
+section#section_8 h2.font-weight-bold.text-center {
+    width: 550px;
+}
+section#section_3 .business_funding .col-md-4 {
+    text-align: center;
+    background: #eeee;
+    margin: 24px;
+    max-width: 29%;
+    border-radius: 20px;
+    padding: 40px 20px;
+    display: grid;
+    align-content: space-evenly;
+    align-items: center !important;
+}
+
+section#section_3 .business_funding .col-md-4 img.img-fluid {
+    margin: 0px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 2px 12px #ccc;
+    padding: 21px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+section#section_3 .business_funding  h4 {
+    color: #0a2141;
+font-weight: 700;
+}
+section#section_3 .business_funding a, section#section_7 .business_steps .col-md-3 a {
+    font-weight: 600;
+}
+
+section#section_3 .business_funding a::after {
+    content: '→';
+    font-size: 25px;
+    line-height: 0px;
+    margin-left: 5px;
+}
+section#section_4 {
+    padding: 0px;
+}
+section#section_4 .stepss .row,  section#section_6 .row  {
+    align-items: center;
+    justify-content: space-around;
+}
+
+section#section_4 .stepss .row h2.font-weight-bold {
+    margin-bottom: 30px;
+}
+
+section#section_4 .stepss .row .col-md-6, section#section_6 .row .col-md-6{
+    max-width: 40%;
+}
+section#section_6 {
+    padding: 0px;
+}
+
+section#section_7 .business_steps img.img-fluid {
+    margin-bottom: 20px;
+}
+
+section#section_7 .business_steps h4 {
+    font-size: 22px;
+    color: #0a2141;
+    font-weight: 700;
+}
+section#section_7 .business_steps .col-md-3 {
+    padding: 0px 20px;
+}
+section#section_8 h2.font-weight-bold.text-center {
+    width: 550px;
+}
+section#section_8 .business_steps .col-md-6.jumbotron {
+    margin: 22px;
+    max-width: 46%;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+section#section_8 .business_steps .col-md-6.jumbotron img.img-fluid {
+    margin-bottom: 30px;
+}
+
+section#section_8 .business_steps .col-md-6.jumbotron p {
+    margin-bottom: 0px;
+}
+section#section_9 h2.font-weight-bold.text-center {
+    margin-bottom: 50px;
+}
+
+section#section_9 .business_steps .col-md-6 {
+    margin-bottom: 30px;
+}
+
+section#section_9 .business_steps .col-md-6 h3 {
+    font-size: 20px;
+    font-family: 'Aileron';
+    color: #0a2141;
+}
+section#section_5, .funding-option {
+    background: url('images/back.png');
+    background-size: cover;
+    background-position: center;
+}
+
+section#section_5 h2.font-weight-bold {
+    color: #fff;
+}
+
+section#section_5 p.bigger {
+    color: #fff;
+}
+
+section#section_5 .tabs-business {
+    margin-top: 50px;
+}
+
+section#section_5 .tabs-business li.nav-item button {
+    background: transparent;
+    border: unset;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    padding: 15px 10px;
+    margin: -2px 0px;
+}
+
+section#section_5 .tabs-business li.nav-item button.active {
+    border-bottom: 3px solid #dfb944;
+}
+section#section_5 div#myTabContent .business-body .col-md-6.text {
+    padding-right: 100px;
+}
+
+section#section_5 .business-body .text h3 {
+    font-size: 35px;
+}
+section#section_5 div#myTabContent .business-body .col-md-6.text a:hover, .funding-option a:hover{
+background: #153971}
+
+section#section_5 div#myTabContent .business-body .col-md-6.text a, .funding-option a {
+    color: #fff;
+    background: #bb913a;
+    padding: 12px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+section#section_5 .tabs-business li.nav-item {margin-right: 45px;}
+section#section_5 div#myTabContent .business-body {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.funding-option {
+    text-align: center;
+    padding: 60px;
+    border-radius: 20px;
+}
+.funding-option h2.font-weight-bold.text-center {
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.quicklinks h4 {
+    color: #0a2141;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.quicklinks ul.links-footer {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    flex-flow: wrap;
+}
+
+.quicklinks ul.links-footer li.nav-item {
+    list-style: none;
+    width: 45%;
+    float: left;
+}
+
+.quicklinks ul.links-footer li.nav-item a.nav-link {
+    padding: 0px;
+    margin-bottom: 8px;
+    color: #6f6f6f;
+}
+
+.footer-logo ul.social-footer {
+    display: flex;
+    padding: 0px;
+}
+
+.footer-logo ul.social-footer li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.footer-logo ul.social-footer li a {
+    color: #000;
+}
+.footer-logo p{
+    color: #6f6f6f;
+}
+
+@media (max-width: 767px){
+	section#section_3 h2.font-weight-bold, section#section_8 h2.font-weight-bold {
+    width: 100%;
+}
+section#section_3 .business_funding .col-md-4 {
+    max-width: 100%;
+}
+section#section_4 .stepss .row .col-md-6, section#section_6 .row .col-md-6 {
+    max-width: 100%;
+}
+
+section#section_8 h2.font-weight-bold.text-center {width: 100%;}
+
+section#section_8 .business_steps .col-md-6.jumbotron {max-width: 100%;}
+.quicklinks ul.links-footer li.nav-item {
+    width: 100%;
+}
+h2.font-weight-bold {
+    font-size: 26px;
+}section#section_6 {
+    padding: 55px 0;
+}.funding-option {
+    padding: 30px;
+}
+section#section_5 div#myTabContent .business-body .col-md-6.text {
+    padding-right: 0 !important;
+}
+
+section#section_5 div#myTabContent .business-body {
+    display: block;
+}
+
+section#section_5 {
+    padding: 20px;
+}
+nav.navbar.indigo ul.navbar-nav.mr-auto {
+    display: contents;
+}section#section_1 .newsletter form.form-inline input#tel {
+    width: 100%;
+}section#section_2 {
+    padding: 0 20px;
+    margin-top: 40px;
+}section#section_5 .tabs-business li.nav-item {
+    margin-right: 0;
+}
+}
